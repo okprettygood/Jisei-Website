@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Privacy Policy — Jisei</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <style>
+    *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+    :root {
+      --green: #2aaa4a; --green-light: #3DBF63; --bg: #0A0A0A; --card-bg: #141414; --card-border: #1E1E1E;
+      --text: #F0F0F0; --text-muted: #888; --text-dim: #555; --font: 'Inter', -apple-system, sans-serif;
+    }
+    html { scroll-behavior: smooth; }
+    body { background: var(--bg); color: var(--text); font-family: var(--font); -webkit-font-smoothing: antialiased; }
+
+    nav { position: fixed; top: 0; left: 0; right: 0; z-index: 100; padding: 1rem 2rem; display: flex; align-items: center; justify-content: space-between; background: rgba(10,10,10,0.9); backdrop-filter: blur(16px); }
+    .nav-logo { display: flex; align-items: center; gap: 0.6rem; text-decoration: none; }
+    .nav-logo svg { width: 28px; height: 28px; filter: drop-shadow(0 0 6px rgba(42,170,74,0.3)); }
+    .nav-logo span { font-size: 1rem; font-weight: 800; color: var(--text); letter-spacing: 0.08em; text-transform: uppercase; }
+    .nav-back { padding: 0.55rem 1.4rem; background: var(--card-bg); border: 1px solid var(--card-border); color: var(--text-muted); font-weight: 600; font-size: 0.8rem; text-decoration: none; border-radius: 8px; letter-spacing: 0.04em; transition: all 0.25s ease; }
+    .nav-back:hover { border-color: rgba(42,170,74,0.3); color: var(--text); }
+
+    .content { max-width: 720px; margin: 0 auto; padding: 7rem 2rem 4rem; }
+    .content h1 { font-size: 2.5rem; font-weight: 900; text-transform: uppercase; letter-spacing: -0.01em; margin-bottom: 0.5rem; }
+    .content .updated { font-size: 0.8rem; color: var(--text-dim); margin-bottom: 3rem; letter-spacing: 0.04em; }
+    .content h2 { font-size: 1.1rem; font-weight: 800; text-transform: uppercase; letter-spacing: 0.04em; margin-top: 2.5rem; margin-bottom: 0.75rem; color: var(--green-light); }
+    .content p { font-size: 0.95rem; color: var(--text-muted); line-height: 1.8; margin-bottom: 1rem; }
+    .content ul { list-style: none; margin-bottom: 1rem; padding-left: 0; }
+    .content ul li { font-size: 0.95rem; color: var(--text-muted); line-height: 1.8; padding-left: 1.2rem; position: relative; }
+    .content ul li::before { content: ''; position: absolute; left: 0; top: 0.7em; width: 6px; height: 6px; background: var(--green); border-radius: 50%; }
+
+    footer { border-top: 1px solid #1A1A1A; padding: 2rem; display: flex; align-items: center; justify-content: center; gap: 2rem; flex-wrap: wrap; max-width: 720px; margin: 2rem auto 0; }
+    footer a { font-size: 0.7rem; color: var(--text-dim); text-decoration: none; text-transform: uppercase; letter-spacing: 0.08em; transition: color 0.3s; }
+    footer a:hover { color: var(--text-muted); }
+    footer span { font-size: 0.7rem; color: var(--text-dim); text-transform: uppercase; letter-spacing: 0.08em; }
+
+    @media (max-width: 768px) {
+      nav { padding: 0.8rem 1.25rem; }
+      .content { padding: 6rem 1.25rem 3rem; }
+      .content h1 { font-size: 1.8rem; }
+    }
+  </style>
+</head>
+<body>
+  <nav>
+    <a href="index.html" class="nav-logo">
+      <svg viewBox="0 0 500 500"><g transform="translate(250,250)"><path d="M 0,-160 L -160,-90 L -62,48 L 0,142 L 62,48 L 160,-90 Z" fill="#2aaa4a"/><g stroke="#0A0A0A" stroke-width="8" fill="none" stroke-linecap="round"><path d="M 0,-160 Q 5,-20 0,142"/><path d="M -160,-90 Q -40,-30 0,142"/><path d="M 160,-90 Q 40,-30 0,142"/></g></g></svg>
+      <span>Jisei</span>
+    </a>
+    <a href="index.html" class="nav-back">← Back</a>
+  </nav>
+
+  <div class="content">
+    <h1>Privacy Policy</h1>
+    <p class="updated">Last updated: February 2026</p>
+
+    <p>Jisei is built with your privacy as a core principle. We believe your personal data should stay personal — and on your device.</p>
+
+    <h2>What We Don't Collect</h2>
+    <p>Jisei does not collect, store, or transmit any personal information. Specifically:</p>
+    <ul>
+      <li>No account creation is required</li>
+      <li>No email addresses, names, or personal identifiers are collected</li>
+      <li>No browsing history or content data is recorded</li>
+      <li>No data is sent to our servers or any third parties</li>
+      <li>No analytics or tracking tools are used</li>
+    </ul>
+
+    <h2>Camera Access</h2>
+    <p>Jisei requests camera access solely for the Mirror Confrontation feature. When you attempt to disable your protection settings, the app activates your front-facing camera to create a psychological barrier — a moment of self-awareness before you proceed.</p>
+    <p>Camera data is displayed in real-time only. No photos or videos are captured, recorded, stored, or transmitted. The camera feed exists only in the moment and is never saved anywhere.</p>
+
+    <h2>Screen Time &amp; App Usage Data</h2>
+    <p>Jisei uses Apple's Screen Time API and Family Controls framework to provide app and website blocking functionality. This data is managed entirely by Apple's system frameworks and remains on your device. Jisei does not access, read, or store any information about which specific apps or websites you use.</p>
+
+    <h2>Data Storage</h2>
+    <p>All app settings, commitment periods, streak data, and preferences are stored locally on your device using standard iOS storage. This data is not synced, backed up to our servers, or accessible to anyone other than you.</p>
+    <p>If you delete the app, all locally stored data is permanently removed.</p>
+
+    <h2>Third-Party Services</h2>
+    <p>Jisei does not integrate with any third-party analytics, advertising, or data collection services. We do not share data with anyone because we do not have any of your data to share.</p>
+
+    <h2>Children's Privacy</h2>
+    <p>Jisei is designed for adults aged 18 and older. We do not knowingly collect any information from children.</p>
+
+    <h2>Changes to This Policy</h2>
+    <p>If we update this privacy policy, we will post the revised version on this page with an updated date. Continued use of Jisei after changes constitutes acceptance of the updated policy.</p>
+
+    <h2>Contact</h2>
+    <p>If you have questions about this privacy policy, please visit our <a href="support.html" style="color: var(--green-light); text-decoration: none;">support page</a>.</p>
+  </div>
+
+  <footer>
+    <span>© 2026 Jisei</span>
+    <a href="privacy.html">Privacy</a>
+    <a href="terms.html">Terms</a>
+    <a href="support.html">Support</a>
+  </footer>
+</body>
+</html>
